@@ -11,15 +11,15 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
 }
 
 :root{
-   --corBackgroundPrimaria: #1d163b9d;
+   --corBackgroundPrimaria: #15265c;
       --corBackgroundSecundaria: rgb(47, 47, 56);
-      --corBackgroundDark:#000000a6;
+      --corBackgroundDark:#15265c;
       --corTextPrimaria:#000000;
       --corTextoSecudaria:#000;
    }
   
 .img {
-   box-shadow: 3px 3px 10px 3px rgb(58, 46, 65);
+   box-shadow: 3px 3px 10px 3px #2ee09a;
 }
 .hidden{
    display: none;
@@ -38,7 +38,7 @@ header{
    padding: 30px 30px 0;
 }
 header .container{
-   background-color: rgb(153, 153, 175);
+   background-color: #ef84f5;
 }
 header .linha{
    align-items: center;
@@ -90,7 +90,7 @@ footer nav .info-contato li{
 }
 
 footer nav .redes-sociais{
-   border-top: 1px solid rgb(255 255 255 / 20%);
+   border-top: 1px solid #2ee09a ;
    margin: 20px 0 50px;
    padding: 50px 0 0;
    text-align: center;
@@ -186,8 +186,8 @@ label span{
 }
 
 .ativar-dark:checked ~ .dark-mode{
-   --corBackgroundPrimaria: #000;
-   --corBackgroundSecundaria: #000;
+   --corBackgroundPrimaria: #050914;
+   --corBackgroundSecundaria: #170e18;
    --corTextPrimaria:#fff;
    --corTextoSecudaria:#fff;
 }
@@ -272,8 +272,8 @@ label span{
        animation-duration: 1s, 1s;
        animation-delay: 2s, 3s;
        animation-fill-mode: forwards;
-       border-top-color:#1d163b9d;
-       border-right-color:#1d163b9d;
+       border-top-color:#2ee09a;
+       border-right-color:#2ee09a;
    }
    main .coluna section .baixo-esquerda{
        bottom: -2px;
@@ -282,8 +282,8 @@ label span{
        animation-duration: 1s, 1s;
        animation-delay: 4s, 5s;
        animation-fill-mode: forwards;
-       border-bottom-color: #1d163b9d;
-       border-left-color: #1d163b9d;
+       border-bottom-color: #2ee09a;
+       border-left-color: #2ee09a;
    }
    main .coluna{
        padding: 0;
