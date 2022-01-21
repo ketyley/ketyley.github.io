@@ -13,8 +13,8 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
 :root{
    --corBackgroundPrimaria: #1d163b9d;
       --corBackgroundSecundaria: rgb(47, 47, 56);
-      --corBackgroundDark:#0e0e0e;
-      --corTextPrimaria:#0000008f;
+      --corBackgroundDark:#000000a6;
+      --corTextPrimaria:#000000;
       --corTextoSecudaria:#000;
    }
   
