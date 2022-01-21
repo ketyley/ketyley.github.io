@@ -13,7 +13,7 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
 :root{
    --corBackgroundPrimaria: #15265c;
       --corBackgroundSecundaria: rgb(47, 47, 56);
-      --corBackgroundDark:#15265c;
+      --corBackgroundDark:rgb(16, 17, 17)000;
       --corTextPrimaria:#000000;
       --corTextoSecudaria:#000;
    }
@@ -38,7 +38,7 @@ header{
    padding: 30px 30px 0;
 }
 header .container{
-   background-color: #ef84f5;
+   background-color: #2ee09a;
 }
 header .linha{
    align-items: center;
@@ -115,7 +115,7 @@ main .coluna{
    padding: 20px;
 }
 main .coluna section{
-   border-bottom: 1px solid #d8d4ff;
+   border-bottom: 1px solid #ef84f5;
    margin: 0 0 20px;
    min-height: 187px;
    color:var(--corTextoSecudaria);
@@ -187,8 +187,8 @@ label span{
 
 .ativar-dark:checked ~ .dark-mode{
    --corBackgroundPrimaria: #050914;
-   --corBackgroundSecundaria: #170e18;
-   --corTextPrimaria:#fff;
+   --corBackgroundSecundaria: #2ee09a;
+   --corTextPrimaria:#ef84f5;
    --corTextoSecudaria:#fff;
 }
 .ativar-dark:checked ~ .dark-mode header{
