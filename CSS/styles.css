@@ -11,8 +11,8 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
 }
 
 :root{
-   --corBackgroundPrimaria: #15265c;
-      --corBackgroundSecundaria: rgb(47, 47, 56);
+   --corBackgroundPrimaria: #181818;
+      --corBackgroundSecundaria: #181818;
       --corBackgroundDark:rgb(16, 17, 17)000;
       --corTextPrimaria:#000000;
       --corTextoSecudaria:#000;
@@ -90,7 +90,7 @@ footer nav .info-contato li{
 }
 
 footer nav .redes-sociais{
-   border-top: 1px solid #2ee09a ;
+   border-top: 1px solid #242424 ;
    margin: 20px 0 50px;
    padding: 50px 0 0;
    text-align: center;
@@ -115,7 +115,7 @@ main .coluna{
    padding: 20px;
 }
 main .coluna section{
-   border-bottom: 1px solid #ef84f5;
+   border-bottom: 1px solid #8a2ee0;
    margin: 0 0 20px;
    min-height: 187px;
    color:var(--corTextoSecudaria);
@@ -170,13 +170,13 @@ label span{
    width: 20px;
    height: 20px;
    display: block;
-   background-color: #e1d4ff;
+   background-color: #696969;
    border-radius: 100%;
    transition: all ease .3s;
 }
 
 .ativar-dark:checked ~ .dark-mode label{
-   background-color: #1d163b9d;
+   background-color: #adadad;
 }
 .ativar-dark:checked ~ .dark-mode label span{
    background-color: var(--corBackgroundSecundaria);
