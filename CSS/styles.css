@@ -19,7 +19,7 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
    }
   
 .img {
-   box-shadow: 3px 3px 10px 3px #363636;
+   box-shadow: 3px 3px 10px 3px #696969;
 }
 .hidden{
    display: none;
