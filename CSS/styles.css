@@ -187,9 +187,9 @@ label span{
 
 .ativar-dark:checked ~ .dark-mode{
    --corBackgroundPrimaria: #050914;
-   --corBackgroundSecundaria: #2ee09a;
-   --corTextPrimaria:#ef84f5;
-   --corTextoSecudaria:#fff;
+   --corBackgroundSecundaria: #000000;
+   --corTextPrimaria:#ffffff;
+   --corTextoSecudaria:rgb(226, 226, 226);
 }
 .ativar-dark:checked ~ .dark-mode header{
    background-color:var(--corBackgroundSecundaria) ;
@@ -282,8 +282,8 @@ label span{
        animation-duration: 1s, 1s;
        animation-delay: 4s, 5s;
        animation-fill-mode: forwards;
-       border-bottom-color: #2ee09a;
-       border-left-color: #2ee09a;
+       border-bottom-color: #000000;
+       border-left-color: #8a2ee0;
    }
    main .coluna{
        padding: 0;
