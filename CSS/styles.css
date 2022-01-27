@@ -38,7 +38,7 @@ header{
    padding: 30px 30px 0;
 }
 header .container{
-   background-color: #2ee09a;
+   background-color: #3b3b3b;
 }
 header .linha{
    align-items: center;
@@ -186,7 +186,7 @@ label span{
 }
 
 .ativar-dark:checked ~ .dark-mode{
-   --corBackgroundPrimaria: #050914;
+   --corBackgroundPrimaria: #161616;
    --corBackgroundSecundaria: #000000;
    --corTextPrimaria:#ffffff;
    --corTextoSecudaria:rgb(226, 226, 226);
