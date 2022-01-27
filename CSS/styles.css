@@ -19,7 +19,7 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
    }
   
 .img {
-   box-shadow: 3px 3px 10px 3px #2ee09a;
+   box-shadow: 3px 3px 10px 3px #363636;
 }
 .hidden{
    display: none;
@@ -272,8 +272,8 @@ label span{
        animation-duration: 1s, 1s;
        animation-delay: 2s, 3s;
        animation-fill-mode: forwards;
-       border-top-color:#2ee09a;
-       border-right-color:#2ee09a;
+       border-top-color:#8a2ee0;
+       border-right-color:#8a2ee0;
    }
    main .coluna section .baixo-esquerda{
        bottom: -2px;
@@ -282,7 +282,7 @@ label span{
        animation-duration: 1s, 1s;
        animation-delay: 4s, 5s;
        animation-fill-mode: forwards;
-       border-bottom-color: #000000;
+       border-bottom-color: #8a2ee0;
        border-left-color: #8a2ee0;
    }
    main .coluna{
